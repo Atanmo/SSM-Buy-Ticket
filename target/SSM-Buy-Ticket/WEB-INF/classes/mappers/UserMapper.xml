@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.duing.dao.UserDao">
 
-    <select id="getAllUser" resultType="com.duing.domain.User" >
+    <select id="getAllUser" resultType="com.duing.entity.User" >
         select `uname`,age from user
     </select>
 
