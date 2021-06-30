@@ -26,9 +26,8 @@ public class FilmServiceImpl implements FilmService {
             FilmVo filmVo = new FilmVo();
             filmVo.setFilmId(film.getFilm_id());
             filmVo.setFilmName(film.getFilm_name());
-            filmVo.setFilmDirector(film.getFile_director());
+            filmVo.setFilmDirector(film.getFilm_director());
             filmVo.setFilmImgPath(film.getFilm_img_path());
-
             filmVos.add(filmVo);
         }
         return filmVos;

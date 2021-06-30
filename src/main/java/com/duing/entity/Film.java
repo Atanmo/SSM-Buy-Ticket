@@ -10,7 +10,7 @@ public class Film implements Serializable {
     private Long id;
     private String film_id;
     private String film_name;
-    private String file_director;
+    private String film_director;
     private String film_player;
     private String film_type;
     private String film_country;
@@ -25,7 +25,7 @@ public class Film implements Serializable {
         this.id = id;
         this.film_id = film_id;
         this.film_name = film_name;
-        this.file_director = file_director;
+        this.film_director = file_director;
         this.film_player = film_player;
         this.film_type = film_type;
         this.film_country = film_country;
@@ -59,12 +59,12 @@ public class Film implements Serializable {
         this.film_name = film_name;
     }
 
-    public String getFile_director() {
-        return file_director;
+    public String getFilm_director() {
+        return film_director;
     }
 
-    public void setFile_director(String file_director) {
-        this.file_director = file_director;
+    public void setFilm_director(String file_director) {
+        this.film_director = file_director;
     }
 
     public String getFilm_player() {
